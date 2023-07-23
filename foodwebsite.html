@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent {
+            display: flex;
+            flex-direction: row;
+            background-color: rgb(183, 182, 182);
+            height: 20rem;
+            width: 80rem;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .children {
+            background-color: white;
+            border: 2px rgb(234, 234, 234) solid;
+            border-radius: 12px;
+            height: 15rem;
+            width: 20rem ;
+            padding: 1rem 2rem;
+            margin: 1rem 4rem;
+        }
+
+        .children img {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 8rem;
+            width: 7rem;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        /* #parent {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(183, 182, 182);
+            height: 813px;
+            width: 238px;
+        }
+
+        .children {
+            background-color: white;
+            border: 2px rgb(234, 234, 234) solid;
+            border-radius: 12px;
+            height: 250px;
+            width: 200px;
+            padding: 4px 8px;
+            margin: 2px 10px;
+        }
+
+        .children img {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 80px;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="children"><img src="box1.jpg" alt="food">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Saepe, aliquam dolore consequuntur architecto vero impedit beatae quae quaerat voluptatum error.
+        </div>
+        <div class="children"><img src="box3.png" alt="food">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Saepe, aliquam dolore consequuntur architecto vero impedit beatae quae quaerat voluptatum error.
+        </div>
+        <div class="children"><img src="box4.jpg" alt="food">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Saepe, aliquam dolore consequuntur architecto vero impedit beatae quae quaerat voluptatum error.
+        </div>
+    </div>
+</body>
+
+</html>
